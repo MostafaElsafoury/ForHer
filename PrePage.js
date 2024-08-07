@@ -13,7 +13,7 @@ document.getElementById("button").onclick = function(){
     ) {
         document.getElementById("MainText").innerHTML = "Correct! Redirecting you to the Main Page...";
         setTimeout(function() {
-            window.location.replace("/for her/HomePage/HomePage.html")
+            window.location.replace("/ForHer/HomePage/HomePage.html")
         },3000);
     } else {
         document.getElementById("MainText").innerHTML = "Wrong. Access has been denied, Try again.";
